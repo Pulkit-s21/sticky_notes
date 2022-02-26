@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #c68c53a8;
+    font-family: "Architects Daughter";
+    font-size: 2rem;
+}
+
+.main-container{
+    width: 95%;
+    margin: auto;
+}
+
+.container1{
+    margin-left: 5%;
+}
+
+.btn{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.container2{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.container3{
+    display: none;
+    position: absolute;
+    top: 26%;
+    left: 40%;
+}
+
+textarea{
+    width: 275px;
+    height: 275px;
+    padding: 40px 25px 25px 25px;
+    box-shadow: 10px 10px 24px 0 rgba(0,0,0,0.75);
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+}
+
+svg{
+    color: gray;
+}
+
+#check-icon{
+    position: absolute;
+    right: 17%;
+    top: 4%;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#x-icon{
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+@media (max-width: 500px){
+    .container3{
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    textarea{
+        width: 220px;
+        height: 220px;
+        padding: 40px 25px 25px 25px;
+        box-shadow: 10px 10px 24px 0 rgba(0,0,0,0.75);
+        outline: none;
+        border: none;
+        font-size: 1rem;
+    }
+    #check-icon{
+        position: absolute;
+        right: 17%;
+        top: 4%;
+        width: 22px;
+        height: 22px;
+        margin-right: 8px;
+    }
+    #x-icon{
+        position: absolute;
+        right: 5%;
+        top: 4%;
+        width: 22px;
+        height: 22px;
+        margin-left: 8px;
+    }
+    .btn{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
